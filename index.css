@@ -1,0 +1,303 @@
+
+body{
+    background-color: #90f0f3;
+margin: 0px;
+padding: 0px;
+    text-align: center;
+  box-sizing: border-box;
+    justify-content: center;
+
+}
+.container a{
+    margin: 45px;
+    color: #5CB3FF;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.container a:hover{
+    transform: scale(1.4);
+    transition: transform 300ms ease-in-out;
+    color: blue;
+    text-decoration: underline;
+}
+h1{
+   margin: -36px 102ex 0px 0px;
+   color: #f31a6d;
+   font-style: italic;
+   font-size: 43px;
+}
+
+#img2
+{
+    margin-top: -10px;
+    width: 360px;
+    height: 450px;
+    clip-path: circle();
+}
+.home p{
+   margin-top: 95px;
+   font-size: 35px;
+   font-family: 'Courier New', Courier, monospace;
+   color: blue;
+}
+h6{ 
+margin-top: 45px;
+font-size: 55px;
+border-radius: 12px;   
+    }
+
+    .about img{   
+        margin-top: -94px;    
+        width: 224px;
+        height: 294px;
+        clip-path: circle();
+    }
+    .about p{
+font-style: italic;
+       font-weight: 400;
+       font-size: 25px;
+       color: rgb(114, 77, 199);
+    }
+    h4{
+       margin: 94px;   
+        font-size: 55px;
+        border-radius: 12px;
+        
+        }
+
+.education
+{
+    display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+    margin: 136px;
+}
+        .edu1{
+     
+            width: 325px;
+           height: 205px;
+           background: #ffffff;
+           border-radius: 12px;
+        
+        }
+        .edu2{
+          
+            width: 325px;
+           height: 205px;
+           background: #ffffff;
+           border-radius: 12px;
+        
+        }
+       .edu3{
+        
+            width: 325px;
+           height: 205px;
+           background: #ffffff;
+           border-radius: 12px;
+        }
+
+        h5{
+            margin: 94px;
+            font-size: 55px;
+            border-radius: 12px;
+        }
+
+        .project
+        {
+            margin: 54px;
+        }
+   
+        .education .edu1 h2{    
+      margin: 0px;
+      padding: 12px;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+           background: linear-gradient(to right, rgb(104, 211, 230), rgb(241, 100, 154));
+            font-size: 30px;
+           } 
+           .education .edu2 h2{
+            margin: 0px;
+            padding: 12px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+               background: linear-gradient(to right, rgb(104, 211, 230), rgb(241, 100, 154));
+               font-size: 30px;
+           }
+           .education .edu3 h2{
+            margin: 0px;
+            padding: 12px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+               background: linear-gradient(to right, rgb(104, 211, 230), rgb(241, 100, 154));
+               font-size: 30px;
+           }
+
+           .education .edu1 h3{
+            padding:10px;
+          font-size: 27px;
+          color: #14cdee;
+        }
+        .education .edu2 h3{
+            padding:10px;
+            font-size: 27px;
+            color: #14cdee;
+        } 
+        .education .edu3 h3{
+            padding:10px;
+            font-size: 27px;
+            color: #14cdee;
+        }
+
+.project
+{
+    margin: 85px;  
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+ .proj1
+        {
+           
+           align-self: center;
+            width: 345px;
+            height: 556px;
+            background: #5CB3FF;
+            box-shadow: 0px 0px 4px 0px #fcffff;
+            border-radius: 12px;
+        }
+
+
+.proj2
+    {
+       
+        
+        width: 345px;
+        height: 556px;
+        background: #5CB3FF;
+        border-radius: 12px;
+        box-shadow: 0px 0px 4px 0px #fcffff;
+    }
+    .proj3
+    {
+        
+      
+        width: 345px;
+        height: 556px;
+        background: #5CB3FF;
+        border-radius: 12px;
+        box-shadow: 0px 0px 4px 0px #fcffff; 
+    }
+
+
+
+.proj1 h1{
+    margin: 34px;
+}
+
+.proj2 h1{
+    margin: 34px;
+}
+.proj3 h1{
+    margin: 34px;
+}
+.proj1 img{
+    width: 170px;
+    border-radius: 34px;
+}
+
+#p2
+{
+    font-size: 27px;
+       text-decoration: none;
+        color: rgb(163, 8, 93);
+}
+ #p1
+{
+    padding: 43px;
+    padding-top: 2px;
+    color: #ffffff;
+font-size: 15px;
+font-family: cursive;
+}
+.proj2 img{
+    width: 200px;
+}
+.proj2 p{
+    color: #ffffff;
+    font-size: 18px;
+}
+.proj3 img{
+    width: 80px;
+}
+.proj3 p{
+    color: #ffffff;
+    font-size: 18px;
+}
+.subgall h2{
+    margin: 95px;
+      font-size: 55px;
+      border-radius: 12px;
+  }
+
+  .gallery img{
+    width: 30%;
+    border-radius: 34PX;
+   column-gap: 4em;
+   opacity: 0.9;
+    
+}
+.gallery img:hover{
+    opacity: 2;
+    border-radius: 0px;
+      }
+#i3
+{
+    width: 23.67%;
+}
+#i10
+{
+  width: 12.6%;
+  height: 238px;
+}
+
+
+h4:hover
+{
+  
+        font-size: 74px;
+        color: rgb(28, 213, 226);
+      
+}
+h6:hover
+{
+  
+    font-size: 74px;
+    color: rgb(28, 213, 226);
+        
+}
+h5:hover
+{
+  
+    font-size: 74px;
+    color: rgb(28, 213, 226);
+        
+}
+.subgall h2:hover{
+    font-size: 74px;
+    color: rgb(28, 213, 226);
+
+
+}
+
+
+.home p:hover{
+    
+    color: #90f0f3;
+    
+}
+.about img:hover{
+    transform: scale(1.4);
+    transition: transform 600ms ease-in-out;
+}
